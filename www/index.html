@@ -1,0 +1,613 @@
+  <!DOCTYPE HTML>
+  <html>
+  <head>
+  	<title>English Assessment</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link rel="stylesheet" type="text/css" href="js/jquery.mobile-1.4.5.css">
+  	<script src="js/jquery.js"></script>
+  	<script src="js/jquery.mobile-1.4.5.js"></script>
+   <!-- script for charts-->   
+                                                                              
+
+      
+    <style>
+      #b1,#b2,#b3,#b4,#b5{
+        background-color: #008CBA;
+      }
+
+     
+      
+
+      div.gallery {
+
+    border: 7px solid #DCDCDC;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+  
+
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: 300px;
+    
+   
+  }
+
+  div.desc {
+    padding:5px;
+    text-align: center;
+
+  }
+
+
+  
+   .zoli{
+    background-color: solid blue;
+   }
+
+    [data-role=page] {
+        height: 100% !important;
+        position: relative !important;
+      }
+
+      [data-role=footer] {
+        bottom: 0;
+        position: absolute !important;
+        top: auto !important;
+        width: 100%;
+      }
+   
+    </style>
+  </head>
+
+
+   <body>
+   	<!--Page Home Starts Here-->
+   	<div data-role="page" data-dialog="false" id ="home" data-theme="a">
+   		<div data-role="header">
+   			<h1 >QUIZ</h1>
+                
+
+      </div>
+      <br><br><br>
+   		<div role="main" class="ui-content">
+   			
+   			<div data-role="navbar">
+                 
+           <a href="#q1" class="ui-corner-all" data-transition="slide" id="b1">GIF QUIZ TEST 1</a>      
+          <a href="" class="ui-corner-all ui-icon-lock ui-btn-icon-right " data-transition="slide" id="b2">GIF QUIZ TEST 2</a>      
+          <a href="" class="ui-corner-all ui-icon-lock ui-btn-icon-right " data-transition="slide" id="b3">GIF QUIZ TEST 3</a>
+          <a href="" class="ui-corner-all ui-icon-lock ui-btn-icon-right " data-transition="slide" id="b4">GIF QUIZ TEST 4</a>
+          <a href="" class="ui-corner-all ui-icon-lock ui-btn-icon-right " data-transition="slide" id="b5">GIF QUIZ TEST 5</a>
+   		</div>
+
+   		<div data-role="footer">
+   			<h2>MCQ</h2>
+   		</div>
+   	</div>
+   </div>
+
+
+
+      <!--Question 1-->
+    <div data-role="page" data-dialog="false" id ="q1" data-theme="a" data-prev="" data-next="#q2" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 1</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+        
+         <img src="img/laugh.gif" alt="Northern Lights">
+         
+       <div class="desc">The man is _____. ?</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r1" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. Angry</label>
+            <label><input name="radio"  type="radio" value="bad"> B. Sad </label>
+            <label><input name="radio"  type="radio" value="good"> C. Happy</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+
+
+
+
+       <!--Question 2-->
+    <div data-role="page" data-dialog="false" id ="q2" data-theme="a" data-prev="#q1" data-next="#q3" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 2</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+         
+         <img src="img/fall.gif" alt="Northern Lights">
+         
+       <div class="desc">The person _____ into the river.</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r2" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. fallen</label>
+            <label ><input name="radio" type="radio" value="bad"> B. will fall </label>
+            <label ><input name="radio" type="radio" value="good"> C. is falling</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+
+
+  <!--Question 3-->
+    <div data-role="page" data-dialog="false" id ="q3" data-theme="a" data-prev="#q2" data-next="#q4" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 3</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+         
+         <img src="img/acc.gif" alt="Northern Lights" >
+         
+       <div class="desc">The person met with an _____ .</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r3" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. collision</label>
+            <label ><input name="radio" type="radio" value="good"> B. accident </label>
+            <label ><input name="radio" type="radio" value="bad"> C. another person</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+
+
+      <!--Question 4-->
+    <div data-role="page" data-dialog="false" id ="q4" data-theme="a" data-prev="#q3" data-next="#q5" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 4</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+         
+         <img src="img/scream.gif" alt="Northern Lights">
+         
+       <div class="desc">Opposite of what the boy is doing ?</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r4" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. smile </label>
+            <label ><input name="radio" type="radio" value="good"> B. whisper</label>
+            <label ><input name="radio" type="radio" value="bad"> C. cry</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+
+
+  <!--Question 5-->
+    <div data-role="page" data-dialog="false" id ="q5" data-theme="a" data-prev="#q4" data-next="#q6" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 5</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+         
+         <img src="img/sing.gif" alt="Northern Lights">
+        
+       <div class="desc">The girl is _____ .</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r5" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. sang </label>
+            <label ><input name="radio" type="radio" value="good"> B. singing</label>
+            <label ><input name="radio" type="radio" value="bad"> C. sung</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+
+
+<!--Question 6-->
+    <div data-role="page" data-dialog="false" id ="q6" data-theme="a" data-prev="#q5" data-next="#q7" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 6</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+         
+         <img src="img/scar.gif" alt="Northern Lights" >
+         
+       <div class="desc">The child got ____ .</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r6" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. excited</label>
+            <label ><input name="radio" type="radio" value="bad"> B. bored </label>
+            <label ><input name="radio" type="radio" value="good"> C. scared</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+
+
+  <!--Question 7-->
+    <div data-role="page" data-dialog="false" id ="q7" data-theme="a" data-prev="#q6" data-next="#q8" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 7</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+        
+         <img src="img/run.gif" alt="Northern Lights" >
+         
+       <div class="desc">The man will get _____ after running .</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r7" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. excited</label>
+            <label ><input name="radio" type="radio" value="good"> B. tired </label>
+            <label ><input name="radio" type="radio" value="bad"> C. energetic</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+        
+
+   <!--Question 8-->
+    <div data-role="page" data-dialog="false" id ="q8" data-theme="a" data-prev="#q7" data-next="#q9" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 8</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+        
+         <img src="img/beat.gif" alt="Northern Lights" >
+         
+       <div class="desc">The girl ____ the boy .</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r8" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. win</label>
+            <label ><input name="radio" type="radio" value="bad"> B. overcome </label>
+            <label ><input name="radio" type="radio" value="good"> C. defeated</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+
+
+
+      <!--Question 9-->
+    <div data-role="page" data-dialog="false" id ="q9" data-theme="a" data-prev="#q8" data-next="#q10" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 9</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+         <img src="img/pot.gif" alt="Northern Lights" >
+         
+       <div class="desc">He ____ the ball.</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r9" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="good" checked="checked" class="zoli"> A. potted</label>
+            <label ><input name="radio" type="radio" value="bad"> B. pushed  </label>
+            <label ><input name="radio" type="radio" value="bad"> C. kicked</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+             
+    
+    <!--Question 10-->
+    <div data-role="page" data-dialog="false" id ="q10" data-theme="a" data-prev="#q9" data-next="#last" class="bg">
+      <div data-role="header" >
+         <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1 data-icon="home">Question 10</h1>
+                
+      </div>
+      <br><br>
+  <div role="main" class="ui-content">
+     <div>
+      <div class="gallery ">
+         
+         <img src="img/miss.gif" alt="Northern Lights" >
+         
+       <div class="desc">The man is missing a _____ .</div>
+      </div>
+    </div>
+    <br><br>
+
+    <div>
+       <form>
+          <fieldset data-role="controlgroup" id="r7" data-iconpos="right" class="field" data-theme="b">
+            <div class="field">
+            <label class="zoli"><input name="radio" type="radio" value="bad" checked="checked" class="zoli"> A. teeth</label>
+            <label ><input name="radio" type="radio" value="good"> B. tooth </label>
+            <label ><input name="radio" type="radio" value="bad"> C. eye</label>
+            </div>
+          </fieldset>
+        </form>
+     </div>
+     
+  </div>
+      </div>
+             
+
+
+
+
+
+
+    <!--Last Page-->
+    <div data-role="page" data-dialog="false" id ="last" data-theme="a" data-prev="#q10" data-next="">
+      <div data-role="header">
+        <a href="#home" id="calc" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-icon-back ui-btn-icon-left" >HOME</a>
+        <h1>Results Page</h1>
+                
+      </div>
+     <br><br><br>
+      <div role="main" class="ui-content">
+        <p>Click on the button below to get the results, you can still go to the previous questions if you think that some of them have been wrongly anwered </p>
+        <br>
+       <input type="submit" id="submit" value="Submit Anwers" />
+       <div id="chartContainer" style="height: 300px; max-width: 700px; margin: 0px auto;"></div>
+      </div>
+     
+       
+       
+    </div>
+
+
+   
+   
+
+
+
+   	
+
+
+
+   		
+   	
+
+      
+
+
+  <!--<script type="text/javascript">
+    
+   $(document).on('swipeleft swiperight', function (event) {
+      // next page
+      if (event.type == 'swipeleft') {
+          var nextPage = $.mobile.activePage.next('[class=lala]');
+          if (nextPage) {
+              $.mobile.changePage(nextPage, {
+                  transition: "slide" // or any transition
+              });
+          }
+      }
+      // previous page
+      if (event.type == 'swiperight') {
+          var prevPage = $.mobile.activePage.prev('[class=lala]');
+          if (prevPage) {
+              $.mobile.changePage(prevPage, {
+                  transition: "slide",
+                  reverse: true // reverse effect
+              });
+          }
+      }
+  });
+
+  </script>-->
+
+
+
+  <script type="text/javascript">
+    
+
+    function navnext( next ) {
+      $( ":mobile-pagecontainer" ).pagecontainer( "change", next, {
+          transition: "slide"
+      });
+  }
+  function navprev( prev ) {
+      $( ":mobile-pagecontainer" ).pagecontainer( "change", prev, {
+          transition: "slide",
+          reverse: true
+      });
+  }
+
+
+  $( document ).one( "pagecreate", "#q1", function() {
+      // Handler for navigating to the next page
+      // Navigate to the next page on swipeleft
+      $( document ).on( "swipeleft", ".ui-page", function( event ) {
+          // Get the filename of the next page. We stored that in the data-next
+          // attribute in the original markup.
+          var next = $( this ).jqmData( "next" );
+          if ( next ) {
+              navnext( next );
+          }
+      });
+      // The same for the navigating to the previous page
+      $( document ).on( "swiperight", ".ui-page", function( event ) {
+          var prev = $( this ).jqmData( "prev" );
+          if (prev) {
+              navprev( prev );
+          }
+      });
+  });
+
+
+
+
+  var right = 0;
+  var wrong = 0;
+  var total = 0;
+
+   $(document).ready(function() {
+      $("#submit").click(function() {
+   
+      var i = 1;
+      for (i; i < 10; i++) {
+       var id = "#r" + i;
+       var check = id + " input[name='radio']:checked";
+       var ans = $(check).val();
+
+       if(ans == "good"){
+       total++;
+
+      }
+    }
+   
+   s
+  
+       var bd = 10 - total;
+var options = {
+  title: {
+    text: "Results"
+  },
+  data: [{
+      type: "pie",
+      startAngle: 45,
+      showInLegend: "true",
+      legendText: "{label}",
+      indexLabel: "{label} ({y})",
+      yValueFormatString:"#,##0.#"%"",
+      dataPoints: [
+        
+        { label: "Good Answers", y: total },
+        { label: "Wrong Answers", y: bd },
+        
+      ]
+  }]
+};
+$("#chartContainer").CanvasJSChart(options);
+
+
+   })
+    });
+
+
+
+  
+
+
+  </script>
+  
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+  
+
+   	</body>
+
+  </html>	
